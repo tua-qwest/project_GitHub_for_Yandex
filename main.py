@@ -11,6 +11,7 @@ while not done:
             done = True
 
     pygame.draw.rect(screen, (197, 201, 199), [60, 50, 10, 500], 0)
+    pygame.draw.rect(screen, (0, 0, 255), [70, 160, 450, 100], 0)
 
     pygame.display.flip()
 
